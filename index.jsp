@@ -54,6 +54,16 @@
 						</ul>
 					</li>
 				</ul>
+				<form role="search" method="get" class="search_form" action="">
+					<label>
+						<span class="screen-reader-text">Search for:</span>
+    					<input type="search" class="search-field" placeholder="Search …" value="" name="s" title="Search for:">
+					</label>
+					<button type="submit" class="search-submit">
+						<span class="genericon-search"></span>
+						<span class="screen-reader-text">Search</span>
+					</button>	
+				</form>
 			</div> 
 			<div class="login_container">
 				<ul class="login">
