@@ -45,7 +45,7 @@
 	    menu.classList.toggle('active');
 	    icons.classList.toggle('active');
 	});
-	</script>
+    </script>
 	
 </body>
 </html>
