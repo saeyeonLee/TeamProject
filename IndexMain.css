@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+/* 기본 설정: 페이지 전체 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+conA {
+    height: 400px;
+}
+
+.slide {
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.img1 {
+    background-image: url(../img/main1.jpg);
+    animation: slide_img_1 15s infinite;
+}
+
+.img2 {
+    background-image: url(../img/main2.jpg);
+    animation: slide_img_2 15s infinite;
+}
+
+.img3 {
+    background-image: url(../img/main3.jpg);
+    animation: slide_img_3 15s infinite;
+}
+
+@keyframes slide_img_1 {
+    0% {
+        opacity: 1;
+    }
+
+    12% {
+        opacity: 1;
+    }
+
+    23% {
+        opacity: 1;
+    }
+
+    34% {
+        opacity: 0;
+    }
+
+    45% {
+        opacity: 0;
+    }
+
+    56% {
+        opacity: 0;
+    }
+
+    67% {
+        opacity: 0;
+    }
+
+    78% {
+        opacity: 0;
+    }
+
+    89% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slide_img_2 {
+    0% {
+        opacity: 0;
+    }
+
+    12% {
+        opacity: 0;
+    }
+
+    23% {
+        opacity: 0;
+    }
+
+    34% {
+        opacity: 1;
+    }
+
+    45% {
+        opacity: 1;
+    }
+
+    56% {
+        opacity: 1;
+    }
+
+    67% {
+        opacity: 0;
+    }
+
+    78% {
+        opacity: 0;
+    }
+
+    89% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes slide_img_3 {
+    0% {
+        opacity: 0;
+    }
+
+    12% {
+        opacity: 0;
+    }
+
+    23% {
+        opacity: 0;
+    }
+
+    34% {
+        opacity: 0;
+    }
+
+    45% {
+        opacity: 0;
+    }
+
+    56% {
+        opacity: 0;
+    }
+
+    67% {
+        opacity: 1;
+    }
+
+    78% {
+        opacity: 1;
+    }
+
+    89% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+
+
+
+
+
+.footer_container {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: block;
+    cursor: default;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(25, 25, 25, 1);
+}
+
+.footer_container .footA {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.footer_container .footB {
+    font-size: 15px;
+}
