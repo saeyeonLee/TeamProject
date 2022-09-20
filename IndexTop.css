@@ -1,3 +1,4 @@
+
 :root {
     --text-color: white;
     --backgrount-color: #263343;
@@ -79,6 +80,31 @@ a {
     right: 32px;
     font-size: 24px;
     color: var(--accent-color);
+}
+
+/*검색 버튼*/
+.search-box {
+  height: 30px;
+  width: 250px;
+
+}
+input {
+	font-size: 10px;
+	width: 60%;
+ 	border: 0px;
+ 	padding: 5px;
+ 	outline: none;
+  	float: left;
+}
+
+.search-btn {
+	position: absolute;
+	border: 0px;
+	width: 30px;
+	height: 23px;
+	background: #1b5ac2;
+	outline: none;
+	color: #ffffff;
 }
 
 
